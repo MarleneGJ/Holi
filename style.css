@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1, p{
+    text-align: center;
+    color: floralwhite;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+div.module.parallax-1 {
+    background-size: cover;
+    background: url("img/pigment.jpg")center fixed;
+    height: 100vh;
+
+
+}
+
+
+div.module.parallax-2 {
+    background-size: cover;
+    background: url("img/pigment2.jpg")center fixed;
+    height: 100vh;
+
+}
+
+div.module.parallax-3 {
+    background-size: cover;
+    background: url("img/pigment3.jpg")center fixed;
+    height: 100vh;
+}
+
+
+.slide_inside{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.opacity{
+    background-color: rgba(0,0,0,0.5);
+    width:60%;
+}
+.opacity p{
+    margin: 5%;
+}
+
